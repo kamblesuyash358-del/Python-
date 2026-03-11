@@ -22,11 +22,12 @@ class Manager(Employee):
          print("Position ",self.department)
          print("-" *20)
 
-Emp1=Manager("Sarvesh",28,"emp5868",56000000,"CTO")
-Emp2=Manager("Varad",28,"emp5869",56000000,"ASTROLOGER")
-Emp3=Manager("Paree",28,"emp5888",56000000,"DESIGN HEAD")
-Emp4=Manager("Kaushal",28,"emp5868","000000000000000000.1₹","CEO")
+Emp1=Manager("suyash",28,"emp5868",56000000,"CTO")
+Emp2=Manager("parth",28,"emp5869",56000000,"ASTROLOGER")
+Emp3=Manager("rani",28,"emp5888",56000000,"DESIGN HEAD")
+Emp4=Manager("raja",28,"emp5868","000000000000000000.1₹","CEO")
 Emp1.display()
 Emp2.display()
 Emp3.display()
 Emp4.display()
+
